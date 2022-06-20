@@ -1,0 +1,110 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: Una solución integral, rápida y asequible a todas tus necesidades de vivienda
+    text: Reformas Arin
+    button: "Pide tu presupuesto"
+    buttonlink: "#contact"
+
+  services:
+    title: "Nuestros Servicios"
+    text: " "
+    section: servicios
+    list:
+      - title: "Reformas"
+        desc: "Reformamos tu vivienda para convertirla en el hogar de tus sueños"
+        icon: fas fa-wrench #find more at https://fontawesome.com/icons
+      - title: "Venta"
+        desc: "Te ayudamos a vender tu inmueble para que consigas el mejor precio por el"
+        icon: fas fa-handshake
+      - title: "Compra"
+        desc: "Te ayudamos a comprar la vivienda de tus sueños"
+        icon: fas fa-shopping-cart
+      - title: "Financiación"
+        desc: "Financiamos la reforma de tu vivienda"
+        icon: fas fa-coins
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  reformas:
+    section: reformas
+    title: "Reformas"
+    text: "Reformamos tu vivienda para convertirla en el hogar de tus sueños"
+
+  venta:
+    section: venta
+    title: "Venta"
+    text: "Te ayudamos a vender tu inmueble para que consigas el mejor precio por el"
+
+  compra:
+    section: compra
+    title: "Compra"
+    text: "Te ayudamos a comprar la vivienda de tus sueños"
+
+  financiacion:
+    section: financiacion
+    title: "Financiación"
+    text: " "
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "no" #"yes/no"
+    list:
+      - title: "Inmobiliaria Elkano"
+        url: https://www.inmobiliariaelkano.com
+        logo: assets/img/clients/elkano.png
+      - title: "Saltoki"
+        url: https://www.saltoki.com
+        logo: assets/img/clients/saltoki.png
+      - title: "Bricomart"
+        url: https://bricomart.es
+        logo: assets/img/clients/bricomart.png
+      - title: "Leroy Merlin"
+        url: https://leroymerlin.es
+        logo: assets/img/clients/leroy.png
+
+  contact:
+    title: "Contacta con nosotros"
+    text: "Dejanos tus datos y nos pondremos en contacto contigo."
+    section: contact
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número de Teléfono*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES

@@ -1,0 +1,29 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  nav:
+    - title: "Servicios"
+      section: servicios
+    - title: "Reformas"
+      section: reformas
+    - title: "Vender una vivienda"
+      section: venta
+    - title: "Comprar una vivienda"
+      section: compra
+    - title: "Financiación"
+      section: financiacion
+    - title: "Contáctenos"
+      section: contact
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES

@@ -1,0 +1,10 @@
+#Color Customization
+highlight: "#f0a645"
+#white: "#FF0000"
+#black: "#000"
+
+#Image Customization
+header-image: "../img/header1.jpg"
+#contact-image: "../img/map-image.png"
+renovations-image: "../img/pantone-small.jpg"
+selling-image: "../img/couch-small.jpg"
